@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Target Heart Rate Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="modernizr-custom.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
-
+<header>
+    <h1>Target Heart Rate Calculator </h1>
+</header>
+<form>
+    <label for="age">Enter Your Age </label>
+    <input type="text" id="age"><br>
+    <label for="result">Result </label>
+    <input type="text" id="result" value="">
+    <button id="submit" type="button" onclick="calcHeartRate();">Submit</button>
+</form>
 </body>
 </html>
